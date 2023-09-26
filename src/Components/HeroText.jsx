@@ -54,6 +54,29 @@ const HeroText = () => {
           </m.div>
         </m.h1>
       </LazyMotion>
+
+      {/* نوشته فارسی */}
+      <LazyMotion features={domAnimation} strict>
+        <m.h1
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, type: "spring" }}
+          className="text-center flex justify-center items-center flex-col opacity-100 text-7xl sm:text-9xl cursor-default"
+          style={{ fontFamily: "SuperMario" }}
+        >
+          <m.span
+          className="text-primary-400 bounce"
+            initial={{ x: -100 }}
+            whileInView={{ x: 0 }}
+            transition={{ duration: 0.6, type: "spring" }}
+            style={{fontFamily: "aseman", fontSize: "0.7em" }}
+          >
+            موگیلی{" "}<span style={{fontSize : "0.4em",color: "white" }}>کیست ؟</span>
+          </m.span>
+          
+          
+        </m.h1>
+      </LazyMotion>
     </div>
   );
 };
