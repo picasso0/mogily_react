@@ -93,20 +93,24 @@ const introduction = {
 
 export const navLinks = [
   {
-    id: 'about',
-    title: 'About',
-  },
-  {
-    id: 'projects',
-    title: 'Projects',
+    id: 'contact',
+    title: 'تماس با من',
   },
   {
     id: 'skills',
-    title: 'Skills',
+    title: 'مهارت ها',
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: 'projects',
+    title: 'پروژه ها',
+  },
+  {
+    id: 'about',
+    title: 'درباره من',
+  },
+  {
+    id: 'here',
+    title: 'خانه',
   },
 ];
 

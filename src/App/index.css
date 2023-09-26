@@ -16,6 +16,9 @@
   font-family: "SuperMario";
   src: url(/Fonts/Mario/SuperMario256.ttf);
 }
+.list-none{
+  font-family: asghar;
+}
 .section-title{
   justify-content: space-between;
   display: flex;
