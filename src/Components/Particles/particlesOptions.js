@@ -164,25 +164,19 @@ export const heroOptions = {
     shape: {
       type: 'character',
       character: [
+        
         {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
-          value: ['\uf13b'],
+          value: ['\uf457'],
           weight: '400',
         },
         {
-          fill: true,
+          fill: false,
           font: 'Font Awesome 6 Brands',
           style: '',
-          value: ['\uf38b'],
-          weight: '400',
-        },
-        {
-          fill: true,
-          font: 'Font Awesome 6 Brands',
-          style: '',
-          value: ['\uf3b9'],
+          value: ['\uf3e2'],
           weight: '400',
         },
         {
@@ -192,6 +186,7 @@ export const heroOptions = {
           value: ['\uf41b'],
           weight: '400',
         },
+        
       ],
     },
 
