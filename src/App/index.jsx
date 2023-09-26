@@ -17,6 +17,9 @@ import App from "./App";
 import "./index.css";
 import "font-awesome/css/font-awesome.min.css";
 import "../../public/Fonts/Morganite/morganiteFont.css";
+import "../../public/Fonts/Asghar/AsgharFont.css";
+import "../../public/Fonts/Aseman/AsemanFont.css";
+import "../../public/Fonts/Halal/HalalFont.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
