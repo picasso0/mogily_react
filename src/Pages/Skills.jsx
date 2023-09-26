@@ -16,7 +16,7 @@ const Skills = () => {
     <div id="skills" className="w-full overflow-hidden-web flex justify-center">
       <div className="w-full min-h-[800px] flex flex-col xl:w-[70%]">
         <div className="w-full">
-          <SectionTitle title="SKILLS" subtitle="WHAT I DO" />
+          <SectionTitle title="SKILLS" subtitle="WHAT I DO" persian_title="مهارت های من"  persian_subtitle="!من چی بلدم؟"/>
         </div>
         <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">
           <div className="relative">

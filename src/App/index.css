@@ -16,7 +16,10 @@
   font-family: "SuperMario";
   src: url(/Fonts/Mario/SuperMario256.ttf);
 }
-
+.section-title{
+  justify-content: space-between;
+  display: flex;
+}
 * {
   margin: 0;
   padding: 0;

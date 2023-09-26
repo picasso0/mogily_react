@@ -20,7 +20,7 @@ const Contact = () => {
     >
       <div className="w-full min-h-[800px] flex flex-col xl:w-[70%]">
         <div className="w-full">
-          <SectionTitle title="CONTACT" subtitle="Get in touch" />
+          <SectionTitle title="CONTACT" subtitle="Get in touch" persian_title="تماس با من"  persian_subtitle="همین الان با من تماس بگیر"/>
         </div>
         <div className="w-full flex justify-center items-center">
           <LazyMotion features={domAnimation} strict>
