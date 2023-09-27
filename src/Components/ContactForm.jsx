@@ -44,15 +44,16 @@ const ContactForm = () => {
       "url(https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png)",
     width: "80%",
     height: "96%",
-    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)"
+    boxShadow: "2px 2px 10px rgba(0, 0, 0, 0.2)",
+    alignSelf: "center"
   }}
 >
       <div>
         <h2
-          style={{ fontFamily: "Morganite Bold, sans-serif" }}
+          style={{ fontFamily: "aseman" }}
           className="message text-7xl bg-primary-600 p-2 rounded-xl text-grayscale-200 text-center rounded-br-[0%] relative shadow-2xl"
         >
-          <Typewriter words={["Let's get in touch!"]} loop={true} />
+          <Typewriter words={["اینجا برام پیام بزار :)"]} loop={true} />
           &nbsp;
         </h2>
       </div>
@@ -63,11 +64,11 @@ const ContactForm = () => {
           method="POST"
           target="_blank"
           onSubmit={sendEmail}
-          style={{ fontFamily: "Poppins, sans-serif" }}
+          style={{ fontFamily: "aseman" }}
           className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
         >
           <div className="w-full flex flex-col">
-            <label htmlFor="firstname">First Name</label>
+            <label htmlFor="firstname">نام</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950"
               placeholder="Enter your First Name"

@@ -16,6 +16,7 @@ import ImageSlider from "../Components/elements/ImageSlider";
 const About = () => {
   return (
     <div id="about" className="w-full flex justify-center overflow-hidden-web">
+      <hr></hr>
       <div className="w-full xl:w-[70%] flex flex-col pb-16">
         <div className="w-full">
           <SectionTitle title="ABOUT ME" subtitle="Introduction" persian_title="درباره من"  persian_subtitle="معرفی من" />

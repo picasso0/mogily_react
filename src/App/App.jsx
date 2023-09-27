@@ -19,9 +19,13 @@ function App() {
     <>
       <NavBar />
       <Hero />
+      {/* <hr className="hr-style"></hr> */}
       <About />
+      {/* <hr className="hr-style"></hr> */}
       <Projects />
+      {/* <hr className="hr-style"></hr> */}
       <Skills />
+      {/* <hr className="hr-style"></hr> */}
       <Contact />
     </>
   );
