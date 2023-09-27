@@ -93,7 +93,7 @@ const Navbar = () => {
                       setToggle(!toggle);
                     }}
                   >
-                    <a href={`#${link.id}`}>{link.title}</a>
+                    <a className="text-white" href={`#${link.id}`}>{link.title}</a>
                   </li>
                 );
               })}
