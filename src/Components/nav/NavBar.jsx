@@ -6,7 +6,7 @@
    Creation: 02/06/2023
    Last modification: 02/06/2023
 */
-
+import { Typewriter } from "react-simple-typewriter";
 import React, {useState } from "react";
 import { Link } from "react-router-dom";
 import {styles} from '../../styles.js';
@@ -37,8 +37,20 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={bl33hIcon} alt={bl33hIcon} className="w-18 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
+        <span style={{ color: 'white',textShadow:"black -2px 4px;" , fontFamily:"aseman"}}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={[':)_به_وبسایت_من_خوش_اومدید','welcome_to_my_websiteـ:)','MOGILY|موگیلی ']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+
+          />
+        </span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10"  style={{ color: '#FFFFFF' }}>
