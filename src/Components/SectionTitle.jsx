@@ -16,7 +16,7 @@ const SectionTitle = (props) => {
     <div className="section-title">
     <LazyMotion  features={domAnimation} strict> 
       <m.div
-        initial={{ x: -350 }}
+        initial={{ x: 20 }}
         whileInView={{ x: 0 }}
         transition={{ duration: 0.6, type: "spring" }}
         className="text-primary-600 p-6 noselect "
@@ -32,7 +32,7 @@ const SectionTitle = (props) => {
           {subtitle}
         </span>
         <h2
-          className="tracking-wider text-5xl sm:text-8xl md:text-9xl"
+          className="tracking-wider text-3xl sm:text-5xl md:text-7xl"
           style={{ fontFamily: "Morganite Black"}}
         >
           {title.split("").map((char, index) => {
@@ -52,18 +52,17 @@ const SectionTitle = (props) => {
         className="text-primary-600 p-6 noselect text-right"
       >
         <span
-          className="opacity-50"
+          className="opacity-50 text-1xl sm:text-1xl md:text-3xl"
           style={{
             textTransform: "uppercase",
             fontFamily: "aseman",
-            fontSize:"1.7em",
-            fontWeight: "300",
+            fontWeight: "400",
             
           }}
         >
           {persian_subtitle}
         </span>
-      <h2 className="tracking-wider text-5xl sm:text-8xl md:text-10xl" style={{marginTop:"-15px",textAlign:"center",fontFamily:"aseman"}} >{persian_title}</h2>
+      <h2 className="tracking-wider text-3xl sm:text-5xl md:text-7xl" style={{marginTop:"-10px",textAlign:"right",fontFamily:"aseman"}} >{persian_title}</h2>
       </m.div>
     </LazyMotion>
     </div>

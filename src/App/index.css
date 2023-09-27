@@ -12,6 +12,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media screen and (max-width: 800px) {
+  .section-title {
+    display: block;
+    justify-content:none;
+  }
+}
 @font-face {
   font-family: "SuperMario";
   src: url(/Fonts/Mario/SuperMario256.ttf);

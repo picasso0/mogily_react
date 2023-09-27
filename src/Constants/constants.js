@@ -34,6 +34,9 @@ import {
   psqlIcon,
   eslintIcon,
   pyIcon,
+  phpIcon,
+  cIcon,
+  psIcon,
   viteIcon,
   nodeIcon,
   raspIcon,
@@ -81,13 +84,13 @@ const icons = {
 
 const introduction = {
   text: [
-    "Hello there, I'm so happy you are here! (:",
+    "سلام خیلی خوشحالم شمارو اینجا میبینم :)",
 
-    "My name is Sara, I'm 20 and a third year computer science student based in Guatemala. I have a strong passion for the technologies related to the data base construction and UX.",
+    "اسم من حسنه , من ۲۳ سالمه و توی تهران زندگی میکنم. علاقه شدیدی به برنامه نویسی به خصوص توی حوزه ی وب دارم و از سال ۹۶ دارم تو این حوزه فعالیت میکنم .",
 
-    "Outside of my regular activities, I'm into drawing whenever I have some free time. I'm also a huge dog lover and enjoy playing chess for fun.",
+    " از اواخر سال ۹۷ وارد یه شرکت توی حوزه برنامه نویسی شدم و تا ۱۴۰۲ توی اون شرکت فعالیت داشتم ",
 
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+    " من عاشق کار های تیمی و چالش برانگیز هستم ",
   ],
 };
 
@@ -148,112 +151,71 @@ const skills = [
     title: 'HTML',
     icon: htmlIcon,
     description:
-      'I have a strong command of HTML for organizing web pages and generating meaningful content that can be accessed by all users.',
+      'من تسلط قوی به HTML برای سازماندهی صفحات وب و تولید محتوای معنی دار دارم که برای همه کاربران قابل دسترسی باشد.',
   },
   {
     id: 'css',
     title: 'CSS',
     icon: cssIcon,
     description:
-    'I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
+    'من در استفاده از CSS برای طراحی صفحات وب و ایجاد طرح‌بندی‌های بصری جذاب که تجربه کلی کاربر را بهبود می‌بخشد، تخصص دارم.',
   },
   {
     id: 'javascript',
     title: 'JavaScript',
     icon: jsIcon,
     description:
-    'I have substantial experience in employing JavaScript to introduce interactivity and functionality into web pages, resulting in dynamic user interfaces.',
+    'من تجربه قابل توجهی در استفاده از جاوا اسکریپت برای معرفی تعامل و عملکرد در صفحات وب دارم که در نتیجه رابط های کاربری پویا ایجاد می شود.',
   },
   {
     id: 'react',
     title: 'React',
     icon: reactIcon,
     description:
-      'I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
+      'من اشنایی و تسلط نسبی به کتابخانه react دارم و قادر به پیاده سازی انواع سامانه ها و وبسایت ها با react هستم',
   },
-  {
-    id: 'java',
-    title: 'Java',
-    icon: javaIcon,
-    description:
-      'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
-  },
+
   {
     id: 'aws',
     title: 'Amazon Web Services',
     icon: awsIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
-  },
-  {
-    id: 'figma',
-    title: 'Figma',
-    icon: figmaIcon,
-    description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+      'من دارای گواهینامه AWS هستم و در کار با نمونه های EC2 و RDS مهارت دارم و از قدرت رایانش ابری برای زیرساخت های مقیاس پذیر و قابل اعتماد استفاده می کنم.',
   },
   {
     id: 'git',
     title: 'Git',
     icon: gitIcon,
     description:
-    'I am proficient in Git, managing code changes, collaborating with others, and resolving conflicts effectively.',
+    'من در Git، مدیریت تغییرات کد، همکاری با دیگران و حل موثر تضادها مهارت دارم.',
   },
   {
     id: 'github',
     title: 'GitHub',
     icon: githubIcon,
     description:
-      'I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, I efficiently create and manage repositories and effectively present my work to potential employers.',
+      'من در استفاده از GitHub برای همکاری یکپارچه پروژه، به اشتراک گذاری کد و ردیابی مشکل مهارت دارم. از طریق GitHub، من به طور موثر repository را ایجاد و مدیریت می کنم و کار خود را به طور موثر به کارفرمایان ارائه می کنم.',
   },
   {
     id: 'psql',
     title: 'Postgresql',
     icon: psqlIcon,
     description:
-      'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
-  },
-  {
-    id: 'vite',
-    title: 'Vite',
-    icon: viteIcon,
-    description:
-      'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
+      'من تسلط قوی بر مفاهم و query های sql دارم ',
   },
   {
     id: 'py',
     title: 'Python',
     icon: pyIcon,
     description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
+      ' ۴ سال سابقه برنامه نویسی پایتون تحت ویندوز , لینوکس و به خصوص وب دارم , تخصص اصلی بنده در پایتون و فریمورک های پایتونی نظیر django و fastapi است .',
   },
   {
-    id: 'node',
-    title: 'Node',
-    icon: nodeIcon,
+    id: 'c',
+    title: 'C/C++',
+    icon: cIcon,
     description:
-      'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
-  },
-  {
-    id: 'neo',
-    title: 'Neo4j',
-    icon: neoIcon,
-    description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  },
-  {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
-    description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
-  },
-  {
-    id: 'eslint',
-    title: 'Eslint',
-    icon: eslintIcon,
-    description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      ' من سابقه ۲ سال کار تخصصی روی تحقیق و توسعه ابزارها روی سیستم های نحفته ی لینوکسی با زبان c و کامپایل این برنامه هارا دارم',
   },
 ];
 

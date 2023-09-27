@@ -29,7 +29,7 @@ const SkillsCards = () => {
           }}
           style={{ zIndex: `${index + 1}`, transition: "all 0.6s" }}
           key={index}
-          className="card w-[300px] h-[300px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
+          className="card w-[350px] h-[350px] flex flex-col items-center  bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
         >
           <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
             <img
@@ -47,10 +47,12 @@ const SkillsCards = () => {
               {skill.title}
             </span>
             <span
-              className="text-center bg-primary-400 text-grayscale-950 rounded-xl text-sm p-4"
+              className="text-center bg-primary-400 text-grayscale-950 rounded-xl p-4"
               style={{
-                fontFamily: "Poppins, sans-serif",
+                fontFamily: "aseman",
                 fontWeight: "400",
+                direction:"rtl",
+                fontSize:"1.5em"
               }}
             >
               {skill.description}

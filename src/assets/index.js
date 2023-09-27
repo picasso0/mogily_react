@@ -12,6 +12,9 @@ import bl33hIcon from './logo/bl33hIcon.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
+import phpIcon from './tech/php.png';
+import psIcon from './tech/ps.png';
+import cIcon from './tech/c.png';
 import cssIcon from './tech/css.png';
 import jsIcon from './tech/javascript.png';
 import reactIcon from './tech/reactjs.png';
@@ -43,6 +46,9 @@ export {
   close,
   htmlIcon,
   cssIcon,
+  cIcon,
+  psIcon,
+  phpIcon,
   jsIcon,
   reactIcon,
   awsIcon,
