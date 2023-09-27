@@ -12,7 +12,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.mt-3em{
+  margin-top: 3em;
+}
 .hr-style{
   background: transparent;
   color: transparent;
@@ -56,16 +58,9 @@ body {
   overflow: hidden;
   -webkit-overflow: hidden;
 }
-
-.message::after {
-  content: " ";
-  width: 10px;
-  height: 10px;
-  background: #292D44;
-  position: absolute;
-  bottom: -10px;
-  right: 0;
-  border-radius: 0 0 0 100%;
+.message {
+  margin-bottom: 20px;
+  min-height: 90px;
 }
 
 #repulse-div {

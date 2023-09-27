@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="w-full overflow-hidden-web flex flex-col items-center"
+      className="mt-3em w-full overflow-hidden-web flex flex-col items-center"
     >
       <div className="w-full min-h-[800px] flex flex-col xl:w-[70%]">
         <div className="w-full">
@@ -28,7 +28,7 @@ const Contact = () => {
               initial={{ x: 200 }}
               whileInView={{ x: 0 }}
               transition={{ duration: 0.6, type: "spring" }}
-              className="w-full sm:w-[90%] md:w-[80%] sm:h-[600px] p-4 flex flex-col sm:flex-row gap-4"
+              className="w-full sm:w-[100%] md:w-[80%] sm:h-[600px] p-4 flex flex-col sm:flex-row gap-4"
             >
               <div className="flex justify-center"></div>
               <ContactForm />
@@ -40,7 +40,7 @@ const Contact = () => {
         <SocialLinks />
         <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
           <span>
-            Made by <em>Sara Echeverría (bl33h)</em>
+            Made by <em>MOGILY</em>
           </span>
         </div>
       </div>
